@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="Person" table="PERSON">
+		<id name="id" column="PERSON_ID">
+			<generator class="native" />
+		</id>
+		<property name="name" column="PERSON_NAME" />
+		<set name="carList" table="CAR" inverse="true" cascade="all">
+			<key column="PERSON_ID" not-null="true" />
+			<one-to-many class="Car" />
+		</set>
+	</class>
+	<class name="Car" table="CAR">
+		<id name="id" column="CAR_ID">
+			<generator class="native" />
+		</id>
+		<property name="model" column="CAR_MODEL" />
+		<property name="price" column="CAR_PRICE" />
+		<many-to-one name="owner" class="Person">
+			<column name="PERSON_ID" not-null="true"></column>
+		</many-to-one>
+	</class>
+
+</hibernate-mapping>

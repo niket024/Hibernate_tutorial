@@ -1,0 +1,19 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Java/jdk1.7.0_80/jre/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Java/jdk1.7.0_80/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.7
+org.eclipse.jdt.core.compiler.compliance=1.7
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.source=1.7
+org.eclipse.jdt.core.formatter.brace_position_for_anonymous_type_declaration=next_line
+org.eclipse.jdt.core.formatter.brace_position_for_block=next_line
+org.eclipse.jdt.core.formatter.brace_position_for_constructor_declaration=next_line
+org.eclipse.jdt.core.formatter.brace_position_for_enum_constant=next_line
+org.eclipse.jdt.core.formatter.brace_position_for_enum_declaration=next_line
+org.eclipse.jdt.core.formatter.brace_position_for_method_declaration=next_line
+org.eclipse.jdt.core.formatter.brace_position_for_type_declaration=next_line
+org.eclipse.jdt.core.userLibrary.HibernateJars=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/Niket/Java material/required/antlr-2.7.7.jar"/>\r\n\t<archive path\="C\:/Niket/Java material/required/dom4j-1.6.1.jar"/>\r\n\t<archive path\="C\:/Niket/Java material/required/hibernate-commons-annotations-4.0.2.Final.jar"/>\r\n\t<archive path\="C\:/Niket/Java material/required/hibernate-core-4.2.4.Final.jar"/>\r\n\t<archive path\="C\:/Niket/Java material/required/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>\r\n\t<archive path\="C\:/Niket/Java material/required/javassist-3.15.0-GA.jar"/>\r\n\t<archive path\="C\:/Niket/Java material/required/jboss-logging-3.1.0.GA.jar"/>\r\n\t<archive path\="C\:/Niket/Java material/required/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>\r\n</userlibrary>\r\n

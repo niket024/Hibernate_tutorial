@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="Batch" table="Batch1">
+		<id name="batchid" column="BATCH_ID" />
+
+
+		<property name="duration"></property>
+		<property name="fees"></property>
+		<set name="students" table="B_S_JOIN" inverse="true" cascade="all">
+			<key column="BATCH_ID" />
+			<many-to-many column="STUD_ID" class="Student">
+				
+			</many-to-many>
+		</set>
+	</class>
+	<class name="Student" table="Student1">
+		<id name="studentid" column="STUD_ID">
+
+		</id>
+		<property name="fname"></property>
+		<property name="lname"></property>
+		<property name="age"></property>
+		<set name="batches" table="B_S_JOIN" inverse="true" cascade="all" >
+			<key column="STUD_ID" />
+			<many-to-many column="BATCH_ID" class="Batch">
+			
+			</many-to-many>
+		</set>
+	</class>
+
+
+
+</hibernate-mapping>  

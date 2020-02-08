@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.nik.Human" table="human">
+		<id name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="fname" />
+		<property name="age" />
+	</class>
+	<class name="com.nik.Person" table="Person">
+		<id name="id">
+			<generator class="native" />
+		</id>
+        
+		<property name="fname" />
+		<property name="age" />
+		<property name="address" />
+		<property name="city" />
+	</class>
+	<class name="com.nik.Employee" table="Employee">
+		<id name="id">
+			<generator class="native" />
+		</id>
+        
+		<property name="fname" />
+		<property name="age" />
+		<property name="address" />
+		<property name="city" />
+		<property name="designation" />
+		<property name="email" />
+	</class>
+	<class name="com.nik.PermanantEmployee" table="P_Employee">
+		<id name="id">
+			<generator class="native" />
+		</id>
+        
+		<property name="fname" />
+		<property name="age" />
+		<property name="address" />
+		<property name="city" />
+		<property name="designation" />
+		<property name="email" />
+		<property name="salary" />
+		<property name="leaveCount" />
+	</class>
+
+
+</hibernate-mapping>  

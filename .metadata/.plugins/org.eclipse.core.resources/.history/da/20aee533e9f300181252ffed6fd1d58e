@@ -1,0 +1,11 @@
+package com.nik;
+
+import org.hibernate.cfg.Configuration;
+
+public class Manager
+{
+	public static void main(String[] args)
+	{
+		Configuration cfg = new Configuration();
+	}
+}

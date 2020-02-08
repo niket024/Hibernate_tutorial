@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.nik.AppTest" time="0.033" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="user.variant" value=""/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.dir" value="C:\Niket\Java material\Hibernate\MavenHibernate"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.home" value="C:\Java\jdk1.7.0_80\jre"/>
+    <property name="user.name" value="niketk"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.7.0_80\jre\bin"/>
+    <property name="user.home" value="C:\Users\niketk"/>
+    <property name="localRepository" value="C:\Users\niketk\.m2\repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="user.language" value="en"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.io.tmpdir" value="C:\Users\niketk\AppData\Local\Temp\"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.class.path" value="C:\Niket\Java material\Hibernate\MavenHibernate\target\test-classes;C:\Niket\Java material\Hibernate\MavenHibernate\target\classes;C:\Users\niketk\.m2\repository\org\hibernate\hibernate-core\4.3.6.Final\hibernate-core-4.3.6.Final.jar;C:\Users\niketk\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;C:\Users\niketk\.m2\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\niketk\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\niketk\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\niketk\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\niketk\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.5.Final\hibernate-commons-annotations-4.0.5.Final.jar;C:\Users\niketk\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\niketk\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\niketk\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\niketk\.m2\repository\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;C:\Users\niketk\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\niketk\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.script" value=""/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="sun.java.command" value="C:\Users\niketk\AppData\Local\Temp\surefire4076588168766171689\surefirebooter9025896638944506840.jar C:\Users\niketk\AppData\Local\Temp\surefire4076588168766171689 2018-11-29T16-50-17_436-jvmRun1 surefire4298653586968147786tmp surefire_01682361059324465617tmp"/>
+    <property name="user.timezone" value=""/>
+    <property name="surefire.test.class.path" value="C:\Niket\Java material\Hibernate\MavenHibernate\target\test-classes;C:\Niket\Java material\Hibernate\MavenHibernate\target\classes;C:\Users\niketk\.m2\repository\org\hibernate\hibernate-core\4.3.6.Final\hibernate-core-4.3.6.Final.jar;C:\Users\niketk\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;C:\Users\niketk\.m2\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\niketk\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\niketk\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\niketk\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\niketk\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.5.Final\hibernate-commons-annotations-4.0.5.Final.jar;C:\Users\niketk\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\niketk\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\niketk\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\niketk\.m2\repository\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;C:\Users\niketk\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\niketk\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.runtime.version" value="1.7.0_80-b15"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.7.0_80\jre\lib\resources.jar;C:\Java\jdk1.7.0_80\jre\lib\rt.jar;C:\Java\jdk1.7.0_80\jre\lib\sunrsasign.jar;C:\Java\jdk1.7.0_80\jre\lib\jsse.jar;C:\Java\jdk1.7.0_80\jre\lib\jce.jar;C:\Java\jdk1.7.0_80\jre\lib\charsets.jar;C:\Java\jdk1.7.0_80\jre\lib\jfr.jar;C:\Java\jdk1.7.0_80\jre\classes"/>
+    <property name="surefire.real.class.path" value="C:\Users\niketk\AppData\Local\Temp\surefire4076588168766171689\surefirebooter9025896638944506840.jar"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.7.0_80\jre\lib\endorsed"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.version" value="24.80-b11"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.version" value="1.7.0_80"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.7.0_80\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.3"/>
+    <property name="basedir" value="C:\Niket\Java material\Hibernate\MavenHibernate"/>
+    <property name="java.library.path" value="C:\Java\jdk1.7.0_80\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Java/jdk1.7.0_80/bin/../jre/bin/server;C:/Java/jdk1.7.0_80/bin/../jre/bin;C:/Java/jdk1.7.0_80/bin/../jre/lib/amd64;C:\Java\jdk1.7.0_80\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\app\niketk\product\12.1.0\dbhome_2\bin;C:\ProgramData\Oracle\Java\javapath;C:\app\niketk\product\12.1.0\dbhome_1\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;%GROOVY_HOME%\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Niket\software\grails-2.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\HashiCorp\Vagrant\bin;C:\Oracle\sqlplus;C:\Niket\software\windows SSl\bin;C:\Oracle\connection;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\MongoDB\bin;C:\Java\jdk1.7.0_80\bin;C:\Niket\software\groovy-2.4.9\bin;C:\Program Files\nodejs;C:\Niket\software\grails-2.5.0\bin;C:\Oracle\sqlplus;C:\Niket\software\apache-ant-1.7.1\bin;C:\Niket\software\OpenSSL\bin;C:\Niket\software\apache-tomcat-8.0.43\bin;C:\Oracle\connection;C:\Users\niketk\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Users\niketk\AppData\Local\atom\bin;C:\MongoDB\bin;;C:\Program Files\Docker Toolbox;C:\Program Files\Docker Toolbox;C:\Program Files\Docker Toolbox;;C:\Niket\software\eclipse;;."/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.nik.AppTest" time="0.001"/>
+</testsuite>
