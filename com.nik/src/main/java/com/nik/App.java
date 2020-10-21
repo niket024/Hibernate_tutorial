@@ -3,6 +3,7 @@ package com.nik;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
+import com.nik.entity.Person;
 import com.nik.util.Util;
 
 public class App {

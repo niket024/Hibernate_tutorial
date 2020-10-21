@@ -12,6 +12,8 @@
 		<property name="show_sql">true</property>
 		<!-- Drop and re-create the database schema on startup -->
 		<property name="hbm2ddl.auto">update</property>
-		<mapping class="com.nik.Person" />
+		<mapping class="com.nik.entity.Person" />
+		<mapping class="com.nik.entity.Student" />
+
 	</session-factory>
 </hibernate-configuration>

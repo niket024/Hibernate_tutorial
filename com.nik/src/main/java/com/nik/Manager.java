@@ -2,6 +2,7 @@ package com.nik;
 
 import org.hibernate.Session;
 
+import com.nik.entity.Person;
 import com.nik.util.Util;
 
 public class Manager {
