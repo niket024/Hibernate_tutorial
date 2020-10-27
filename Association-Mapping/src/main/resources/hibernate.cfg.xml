@@ -11,15 +11,18 @@
 		<!-- Echo the SQL to stdout -->
 		<property name="show_sql">true</property>
 		<!-- Drop and re-create the database schema on startup -->
-		<property name="hbm2ddl.auto">update</property>
-		<mapping class="com.nik.entity.Person" />
-		<mapping class="com.nik.entity.Student" />
-		<mapping class="com.nik.composite.Person" />
-		<mapping class="com.nik.component.Person" />
-		<mapping class="com.nik.inheritance.Human" />
-		<mapping class="com.nik.inheritance.Person" />
-		<mapping class="com.nik.inheritance.Employee" />
-		<mapping class="com.nik.inheritance.PermanantEmployee" />
+		<property name="hbm2ddl.auto">create</property>
+		<mapping class="com.nik.onetoone.Student" />
+		<mapping class="com.nik.onetoone.Address" />
+	 	<mapping class="com.nik.onetomany.Customers" />
+		<mapping class="com.nik.onetomany.Vendor" />
+			<mapping class="com.nik.manytoone.Customers" />
+		<mapping class="com.nik.manytoone.Vendor" />
+		<!--<mapping class="com.nik.manytomany.Item" />
+		<mapping class="com.nik.manytomany.Categories" />
+		<mapping class="com.nik.manytomany.ReaderEntity" />
+		<mapping class="com.nik.manytomany.SubscriptionEntity" /> -->
+
 
 	</session-factory>
 </hibernate-configuration>

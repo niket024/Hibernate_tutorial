@@ -1,0 +1,50 @@
+Using hibernate we can put the following 4 types of relationships
+
+One-To-One
+Many-To-One
+One-To-Many
+Many-To-Many
+
+
+One to One Mapping
+---------------------
+1. One object is associated with one object only
+
+2. In this relationship, one object of the one pojo class contains association 
+with one object of the another pojo class
+
+3. To apply one to one relationship between two pojo class objects it is possible by without taking
+a separate foreign key column in the child table of the database
+
+4. To apply one to one relationship, we copy the primary key value of parent object 
+into primary key value of the child object.
+So that the relationship between two objects is one to one
+
+5. If we want to copy parent object primary key value into child object primary key, 
+we need to use a special generator class given by hibernate called foreign
+
+6. Actually this foreign generator is only used in one to one relationship only
+
+7. We are going to apply one to one between student and address pojo classes, 
+here the relation is one address is assigned for one student only
+
+8. In order to get one to one relationship between student and address, 
+we are copying primary key value of student into primary key value of address
+
+One to Many Mapping
+---------------------
+One-to-Many:  according to database terminology, 
+one row of table related with multiple rows of other table
+
+According to hibernate, one object of one pojo class related to multiple objects of other pojo
+I mean, one [parent] to many [Children], 
+example of one-to-many is some thing category books contains different type of books,
+one vendor contains lot of customers bla bla.
+
+To achieve one-to-many between two pojo classes in the hibernate, 
+then the following two changes are required
+
+In the parent pojo class, we need to take a collection property, 
+the collection can be either Set,List,Map
+
+In the POJO class of that parent, we need to add the collection

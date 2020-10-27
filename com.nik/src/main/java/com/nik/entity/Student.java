@@ -6,10 +6,20 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "Student")
+@NamedQueries(  
+	    {  
+	        @NamedQuery(  
+	        name = "getAllStudents",  
+	        query = "from Student"  
+	        )  
+	    }  
+	)  
 public class Student implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id

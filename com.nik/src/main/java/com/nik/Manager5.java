@@ -9,7 +9,7 @@ import com.nik.util.Util;
 public class Manager5 {
 	public static void main(String[] args) {
 		Session session = Util.getSession();
-		String sql = "select fname from student";
+		String sql = "select * from student";
 		List<Object[]> obj = session.createSQLQuery(sql).list();
 		for (Object row[] : obj) {
 			for(Object ob:row) {

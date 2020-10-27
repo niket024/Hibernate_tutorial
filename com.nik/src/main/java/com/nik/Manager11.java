@@ -15,12 +15,12 @@ public class Manager11 {
 		Session session = Util.getSession();
 
 		Criteria ctr=session.createCriteria(Student.class);
-		Criterion c1=Restrictions.gt("age", 300);
+		Criterion c1=Restrictions.gt("age", 30);
 		Criterion c2=Restrictions.like("fname", "%a%");
-		//Criterion sum=Restrictions.or(c1,c2);
+		Criterion sum=Restrictions.and(c1,c2);
 		//Criterion sum=Restrictions.and(c1,c2);
-		//ctr.add(sum);
-		ctr.add(Restrictions.and(Restrictions.gt("age", 30),Restrictions.like("fname", "%a%")));
+		ctr.add(sum);
+		//ctr.add(Restrictions.or(Restrictions.gt("age", 30),Restrictions.like("fname", "%a%")));
 		List<Student> list=ctr.list();
 		for(Student s1:list)
 		{
