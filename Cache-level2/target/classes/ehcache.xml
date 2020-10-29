@@ -1,0 +1,13 @@
+
+<ehcache>
+
+   
+    <cache name="com.nik.entity.Person"
+        maxElementsInMemory="1000"
+        eternal="true"
+        timeToIdleSeconds="0"
+        timeToLiveSeconds="0"
+        overflowToDisk="false"
+        /> 
+
+</ehcache>
