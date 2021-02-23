@@ -12,6 +12,7 @@ public class Manager {
 		PersonPk pk = new PersonPk();
 		pk.setFname("xyz");
 		pk.setEmail("xyzc@gmail.com");
+		
 		Person p1 = new Person();
 		p1.setLname("kumari");
 		p1.setAge(55);

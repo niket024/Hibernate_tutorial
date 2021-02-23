@@ -8,6 +8,7 @@ public class Manager11
 {
 public static void main(String[] args)
 {
+	new Thread().stop();
 	Session s1=Util.getConnection();
 	
 	List<Object[]> obj=s1.getNamedQuery("q1").list();

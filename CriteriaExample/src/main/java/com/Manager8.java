@@ -19,8 +19,6 @@ public class Manager8
 			System.out.println(s2.getAge());
 			System.out.println("----------------");
 		}
-		s1.flush();
-		s1.close();
 		System.out.println("done");
 	}
 }

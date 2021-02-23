@@ -9,7 +9,7 @@ public class Manager10
 public static void main(String[] args)
 {
 	Session s1=Util.getConnection();
-	String sql="select *  from student";
+	String sql="select * from student";
 	List<Object[]> obj=s1.createSQLQuery(sql).list();
 	for(Object row[]:obj)
 	{

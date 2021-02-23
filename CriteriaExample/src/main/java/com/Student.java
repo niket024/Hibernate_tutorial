@@ -1,5 +1,4 @@
 package com;
-
 public class Student
 {
 	private int roll;

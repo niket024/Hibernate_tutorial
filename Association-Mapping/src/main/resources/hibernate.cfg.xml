@@ -14,14 +14,15 @@
 		<property name="hbm2ddl.auto">create</property>
 		<mapping class="com.nik.onetoone.Student" />
 		<mapping class="com.nik.onetoone.Address" />
-	 	<mapping class="com.nik.onetomany.Customers" />
+		<mapping class="com.nik.onetomany.Customers" />
 		<mapping class="com.nik.onetomany.Vendor" />
-			<mapping class="com.nik.manytoone.Customers" />
+		<mapping class="com.nik.manytoone.Customers" />
 		<mapping class="com.nik.manytoone.Vendor" />
-		<!--<mapping class="com.nik.manytomany.Item" />
+		<mapping class="com.nik.manytomany.Item" />
 		<mapping class="com.nik.manytomany.Categories" />
-		<mapping class="com.nik.manytomany.ReaderEntity" />
-		<mapping class="com.nik.manytomany.SubscriptionEntity" /> -->
+		<!-- <mapping class="com.nik.manytomany.ReaderEntity" /> 
+		<mapping class="com.nik.manytomany.SubscriptionEntity" 
+			/> -->
 
 
 	</session-factory>
