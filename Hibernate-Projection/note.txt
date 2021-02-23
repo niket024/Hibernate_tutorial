@@ -1,0 +1,12 @@
+Hibernate Projection :
+---------------------
+Projection is an interface in Hibernate; 
+it is coming from org.hibernate.criterion package.
+Projection can be applied to the Criteria query.
+Projection is an Object-Oriented Representation of a query result set.
+
+Hibernate Projection is used to read a partial entity from the database.
+
+If we want to read more than one property from the database, 
+then we have to add Projection objects to ProjectionList, 
+and then we need to set ProjectionList object to Criteria.
