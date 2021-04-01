@@ -1,0 +1,5 @@
+Loading
+-----------
+There are two types of loading in hibernate
+1. Lazy - by default
+2. Eager

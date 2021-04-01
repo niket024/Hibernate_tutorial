@@ -14,6 +14,7 @@ public class Manager3 {
 		SessionFactory factory = cfg.buildSessionFactory();
 		
 		Session session1 = factory.openSession();
+		
 		Person p1 = (Person) session1.load(Person.class, 1);
 		System.out.println(p1.getId());
 		System.out.println(p1.getFirstName());
@@ -22,6 +23,7 @@ public class Manager3 {
 		System.out.println("--------------------");
 		
 		Session session2 = factory.openSession();
+		
 		Person p2 = (Person) session2.load(Person.class, 1);
 		System.out.println(p2.getId());
 		System.out.println(p2.getFirstName());

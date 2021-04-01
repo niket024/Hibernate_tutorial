@@ -13,7 +13,7 @@ public class Manager9 {
 	public static void main(String[] args) {
 		Session session = Util.getSession();
 		Query query = session.createQuery("from Student where roll =: roll");
-		query.setParameter("roll", 8);
+		query.setParameter("roll", 3);
 		List<Student> std = query.getResultList();
 		for (Student s2 : std) {
 			System.out.println(s2.getRoll());

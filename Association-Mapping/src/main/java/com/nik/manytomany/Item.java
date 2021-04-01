@@ -10,7 +10,8 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "items")
-public class Item {
+public class Item
+{
 	@Id
 	@Column(name = "itemid")
 	private int itemId;
@@ -19,27 +20,33 @@ public class Item {
 	@ManyToMany(targetEntity = Categories.class, mappedBy = "items")
 	private Set<Categories> categories;
 
-	public Set<Categories> getCategories() {
+	public Set<Categories> getCategories()
+	{
 		return categories;
 	}
 
-	public void setCategories(Set<Categories> categories) {
+	public void setCategories(Set<Categories> categories)
+	{
 		this.categories = categories;
 	}
 
-	public int getItemId() {
+	public int getItemId()
+	{
 		return itemId;
 	}
 
-	public void setItemId(int itemId) {
+	public void setItemId(int itemId)
+	{
 		this.itemId = itemId;
 	}
 
-	public String getItemName() {
+	public String getItemName()
+	{
 		return itemName;
 	}
 
-	public void setItemName(String itemName) {
+	public void setItemName(String itemName)
+	{
 		this.itemName = itemName;
 	}
 }

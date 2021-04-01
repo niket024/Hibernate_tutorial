@@ -13,7 +13,7 @@ public class Manager4 {
 	public static void main(String[] args) {
 		Session session = Util.getSession();
 		Criteria criteria = session.createCriteria(Student.class);
-		criteria.add(Restrictions.ge("age", 40));
+		criteria.add(Restrictions.ge("age", 30));
 		criteria.add(Restrictions.like("fname", "aaa"));
 
 		List<Student> students = criteria.list();

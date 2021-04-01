@@ -43,6 +43,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Niket\learning\git\Hibernate_tutorial\HelloHibernateWithMaven\pom.xml"/>
+			<item value="C:\Niket\learning\git\Hibernate_tutorial\Jdbc-Hello-World"/>
 			<item value="C:\Niket\learning\git\Hibernate_tutorial\HelloWithMaven\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -64,6 +66,7 @@
 			<item value="MavenHibernate"/>
 		</list>
 		<list key="artifactId">
+			<item value="HelloHibernateWithMaven"/>
 			<item value="CriteriaExample"/>
 			<item value="FirstHibernateApp"/>
 			<item value="HelloWithMaven"/>

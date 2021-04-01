@@ -15,6 +15,7 @@ public class Manager11 {
 		Session session = Util.getSession();
 
 		Criteria ctr=session.createCriteria(Student.class);
+		
 		Criterion c1=Restrictions.gt("age", 30);
 		Criterion c2=Restrictions.like("fname", "%a%");
 		Criterion sum=Restrictions.and(c1,c2);
