@@ -14,12 +14,12 @@
 		<property name="hbm2ddl.auto">update</property>
 		<mapping class="com.nik.entity.Person" />
 		<mapping class="com.nik.entity.Student" />
-		<mapping class="com.nik.composite.Person" />
+		<!--<mapping class="com.nik.composite.Person" />
 		<mapping class="com.nik.component.Person" />
 		<mapping class="com.nik.inheritance.Human" />
 		<mapping class="com.nik.inheritance.Person" />
 		<mapping class="com.nik.inheritance.Employee" />
-		<mapping class="com.nik.inheritance.PermanantEmployee" />
+		<mapping class="com.nik.inheritance.PermanantEmployee" /> -->
 
 	</session-factory>
 </hibernate-configuration>
