@@ -10,7 +10,7 @@ public class Manager2 {
 	public static void main(String[] args) {
 		Session session = Util.getSession();
 		Transaction tx = session.beginTransaction();
-		Person p = session.load(Person.class, 5);
+		Person p = session.load(Person.class, 2);
 		session.delete(p);
 		tx.commit();
 		System.out.println("done");

@@ -7,10 +7,14 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
 @Table
+@NamedQueries({ @NamedQuery(name = "getAllPerson", query = "from Person") })
+
 public class Person implements Serializable
 {
 	private static final long serialVersionUID = 115948573687399186L;
@@ -21,6 +25,11 @@ public class Person implements Serializable
 	String firstName;
 	String lastName;
 	int age;
+
+	public Person()
+	{
+
+	}
 
 	public Person(int id, String firstName, String lastName, int age)
 	{
@@ -70,4 +79,14 @@ public class Person implements Serializable
 		this.age = age;
 	}
 
+	@Override
+	public String toString()
+	{
+		return "Person [id=" + id + ", firstName=" + firstName + ", lastName="
+				+ lastName + ", age=" + age + "]";
+	}
+	
+	
+
+	
 }

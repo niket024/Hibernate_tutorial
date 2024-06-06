@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-<entry loc="C:\Java\jdk1.7.0_80" stamp="1527084467525"/>
-<entry loc="C:\Java" stamp="1502177919522"/>
-<entry loc="C:\Program Files\Java\jre1.8.0_144" stamp="1505787642411"/>
-<entry loc="C:\Program Files\Java\jdk1.8.0_261" stamp="1600232821748"/>
-<entry loc="C:\Program Files\Java\jre1.8.0_261" stamp="1600232820432"/>
+    <entry loc="C:\Java\jdk1.7.0_80" stamp="1527084467525"/>
+    <entry loc="C:\Java" stamp="1502177919522"/>
+    <entry loc="C:\Niket\software\eclipse-jee-2022-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416" stamp="1663996970714"/>
+    <entry loc="C:\Program Files\Java\jre1.8.0_144" stamp="1505787642411"/>
+    <entry loc="C:\Niket\software\openlogic-openjdk-8u342-b07-windows-x64\openlogic-openjdk-8u342-b07-windows-64" stamp="1672160024327"/>
+    <entry loc="C:\Program Files\Java\jdk1.8.0_261" stamp="1600232821748"/>
+    <entry loc="C:\Program Files\Java\jre1.8.0_261" stamp="1600232820432"/>
+    <entry loc="C:\Niket\software\eclipse-jee-2022-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\jre" stamp="1663996978573"/>
 </dirs>

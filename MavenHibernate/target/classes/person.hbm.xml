@@ -4,12 +4,12 @@
  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
   
  <hibernate-mapping>  
-  <class name="com.nik.Person" table="Person">  
+  <class name="com.nik.Person" table="Person_table">  
     <id name="id">  
      <generator class="assigned"></generator>  
     </id>  
             
-    <property name="name" column="abfgh"></property>  
+    <property name="name" column="person_name"></property>  
     <property name="age"></property>  
   
             

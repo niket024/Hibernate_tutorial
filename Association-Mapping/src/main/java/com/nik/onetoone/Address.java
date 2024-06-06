@@ -7,6 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Entity
 @Table(name = "Address")
@@ -17,6 +18,7 @@ public class Address {
 
 	@Column(name = "place", length = 10)
 	private String place;
+	
 
 	@OneToOne(targetEntity = Student.class, cascade = CascadeType.ALL)
 	@JoinColumn(name = "stu_id", referencedColumnName = "sid")

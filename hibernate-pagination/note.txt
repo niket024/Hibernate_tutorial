@@ -1,0 +1,7 @@
+To start the mysql
+-----------------------
+1. goto mysql unzip folder->bin
+2. open cmd
+4. type "mysql -u root -p"
+5. give password as root
+6. use dbname eg. use test

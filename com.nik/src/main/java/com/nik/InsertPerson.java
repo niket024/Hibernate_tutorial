@@ -12,7 +12,7 @@ public class InsertPerson
 	{
 		Session session = Util.getSession();
 		Transaction tx = session.beginTransaction();
-		Person p1 = new Person(1, "mmm", "kkk", 10);
+		Person p1 = new Person(1, "ss", "vvv", 34);
 		session.save(p1);
 		tx.commit();
 		System.out.println("done");

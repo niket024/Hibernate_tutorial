@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="RefactoringWizard.preview">
-		<item value="600" key="width"/>
-		<item value="400" key="height"/>
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
 	</section>
 	<section name="InferTypeArguments">
-		<item value="true" key="leaveUnconstrainedRaw"/>
-		<item value="true" key="assumeCloneReturnsSameType"/>
+		<item key="leaveUnconstrainedRaw" value="true"/>
+		<item key="assumeCloneReturnsSameType" value="true"/>
 	</section>
 </section>

@@ -11,7 +11,6 @@ public class App {
 
 		Session session = Util.getSession();
 		Transaction tx = session.beginTransaction();
-		String s = "abc";
 		try {
 			Person p1 = new Person();
 			p1.setId(123);

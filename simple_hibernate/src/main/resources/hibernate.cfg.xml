@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">  
+  
+<hibernate-configuration>  
+  
+    <session-factory>  
+       <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/test</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+
+		<!-- Select our SQL dialect -->
+		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+		<!-- Echo the SQL to stdout -->
+		<property name="show_sql">true</property>
+		<!-- Drop and re-create the database schema on startup -->
+		<property name="hbm2ddl.auto">update</property>
+		<property name="hibernate.allow_update_outside_transaction">true</property>
+		<mapping class="com.nik.Person" />
+
+    </session-factory>  
+  
+</hibernate-configuration>  

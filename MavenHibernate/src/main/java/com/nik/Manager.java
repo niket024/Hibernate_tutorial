@@ -16,11 +16,11 @@ public static void main(String[] args)
 	Session session=factory.openSession();
 	Transaction tx=session.beginTransaction();
 	Person p1=new Person();
-	p1.setId(12);
+	p1.setId(24);
 	p1.setAge("23");
 	p1.setName("abc");
 	session.save(p1);
-	tx.commit();
+	//tx.commit();
 	session.flush();
 	session.close();
 	System.out.println("done");
